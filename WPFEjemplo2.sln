@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Ejemplo9", "WPF_Ejemplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Ejemplo10", "WPF_Ejemplo10\WPF_Ejemplo10.csproj", "{1206E2DA-4AA5-4D72-A2B4-0DAA6BBA2B2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Ejemplo11", "WPF_Ejemplo11\WPF_Ejemplo11.csproj", "{9123915A-EA4E-4FE2-B1E8-AB40C5FC4DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Ejemplo12", "WPF_Ejemplo12\WPF_Ejemplo12.csproj", "{1C33D4A5-F7C9-4C24-AFD4-70B959AEE82F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{1206E2DA-4AA5-4D72-A2B4-0DAA6BBA2B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1206E2DA-4AA5-4D72-A2B4-0DAA6BBA2B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1206E2DA-4AA5-4D72-A2B4-0DAA6BBA2B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9123915A-EA4E-4FE2-B1E8-AB40C5FC4DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9123915A-EA4E-4FE2-B1E8-AB40C5FC4DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9123915A-EA4E-4FE2-B1E8-AB40C5FC4DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9123915A-EA4E-4FE2-B1E8-AB40C5FC4DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C33D4A5-F7C9-4C24-AFD4-70B959AEE82F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C33D4A5-F7C9-4C24-AFD4-70B959AEE82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C33D4A5-F7C9-4C24-AFD4-70B959AEE82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C33D4A5-F7C9-4C24-AFD4-70B959AEE82F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
