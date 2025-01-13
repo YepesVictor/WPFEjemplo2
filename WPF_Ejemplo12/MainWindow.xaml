@@ -32,8 +32,11 @@
                     </RadioButton>
                 </StackPanel>
                 <Grid Grid.Column="1">
-                    <Image Source="D:\DAM 2\Desarrollo\Tema12\semaforo.jpg" Width="500" Height="350
-                           "/>
+                    <Image Name="Blank"  Source="D:\DAM 2\Desarrollo\Tema12\semaforo.jpg" Width="500" Height="350"/>
+                    <Image Name="IRojo" Source="D:\DAM 2\Desarrollo\Tema12\semaforoR.jpg" Visibility="Hidden" Width="500" Height="350"></Image>
+                    <Image Name="IAmbar" Source="D:\DAM 2\Desarrollo\Tema12\semaforoA.jpg" Visibility="Hidden" Width="500" Height="350"></Image>
+                    <Image Name="IVerde" Source="D:\DAM 2\Desarrollo\Tema12\semaforoV.jpg" Visibility="Hidden" Width="500" Height="350"></Image>
+
                     <Ellipse Name="ERojo"  Fill="Red" Margin="149,38,151,224" Visibility="Hidden"></Ellipse>
                     <Ellipse Name="EAmbar" Fill="Orange" Margin="152,135,146,125" Visibility="Hidden"></Ellipse>
                     <Ellipse Name="EVerde" Fill="Green" Margin="154,230,146,25" Visibility="Hidden"></Ellipse>

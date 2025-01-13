@@ -27,23 +27,26 @@ namespace WPF_Ejemplo12
 
         private void RadioButton_Click(object sender, RoutedEventArgs e)
         {
-            ERojo.Visibility = Visibility.Visible;
-            EAmbar.Visibility = Visibility.Hidden;
-            EVerde.Visibility = Visibility.Hidden;
+            Blank.Visibility=Visibility.Hidden;
+            IRojo.Visibility = Visibility.Visible;
+            IAmbar.Visibility = Visibility.Hidden;
+            IVerde.Visibility = Visibility.Hidden;
         }
 
         private void RadioButton_Click_1(object sender, RoutedEventArgs e)
         {
-            ERojo.Visibility = Visibility.Hidden;
-            EAmbar.Visibility = Visibility.Visible;
-            EVerde.Visibility = Visibility.Hidden;
+            Blank.Visibility = Visibility.Hidden;
+            IRojo.Visibility = Visibility.Hidden;
+            IAmbar.Visibility = Visibility.Visible;
+            IVerde.Visibility = Visibility.Hidden;
         }
 
         private void RadioButton_Click_2(object sender, RoutedEventArgs e)
         {
-            ERojo.Visibility = Visibility.Hidden;
-            EAmbar.Visibility = Visibility.Hidden;
-            EVerde.Visibility = Visibility.Visible;
+            Blank.Visibility=Visibility.Hidden;
+            IRojo.Visibility = Visibility.Hidden;
+            IAmbar.Visibility = Visibility.Hidden;
+            IVerde.Visibility = Visibility.Visible;
         }
     }
 }
